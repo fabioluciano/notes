@@ -23,5 +23,4 @@ jobs:
         env:
           GETPOCKET_USERNAME: ${{ secrets.GETPOCKET_USERNAME}}
           GETPOCKET_PASSWORD: ${{ secrets.GETPOCKET_PASSWORD}}
-      - run: ls -l
-        working-directory: notes-scrapper-scripts
+      - run: ls -lR
