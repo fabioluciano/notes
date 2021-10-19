@@ -22,9 +22,6 @@ jobs:
         env:
           GETPOCKET_USERNAME: ${{ secrets.GETPOCKET_USERNAME}}
           GETPOCKET_PASSWORD: ${{ secrets.GETPOCKET_PASSWORD}}
-  commit-and-push:
-    runs-on: ubuntu-20.04
-    steps:
       - uses: EndBug/add-and-commit@v7
         with:
           message: "ci: Sync Pocket highlights"
