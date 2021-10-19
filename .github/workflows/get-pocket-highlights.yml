@@ -1,0 +1,21 @@
+name: Get Pocket Highlights
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  recover-pocket-highlights:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: fabioluciano/notes-scrapper
+          path: notes-scrapper-scripts
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "npm"
+      - run: npm install
+      - run: node notes-scrapper-scripts/pocket/index.js
