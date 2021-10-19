@@ -14,6 +14,7 @@ jobs:
           repository: fabioluciano/notes-scrapper
           path: notes-scrapper-scripts
       - uses: actions/setup-node@v2
+        working-directory: ./notes-scrapper-scripts
         with:
           node-version: "14"
           cache: "npm"
