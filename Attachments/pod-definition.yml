@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    application: myapp
+    tier: frontend
+    test: teste
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+    - name: redis
+      image: redis:latest

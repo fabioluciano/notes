@@ -1,0 +1,10 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "enabledPlugins": [],
+  "trashOption": "local"
+}

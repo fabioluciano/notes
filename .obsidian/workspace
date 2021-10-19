@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "d5f5d2a40f9ba4ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "80924408b0746550",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Self-Improvement/Como se tornar um perito em sua área.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "978ded695350dd6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "756b2489bcbba550",
+        "type": "tabs",
+        "dimension": 64.99032882011605,
+        "children": [
+          {
+            "id": "51b03ca59bbd6bd0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e2da00b94dbb3a79",
+        "type": "tabs",
+        "dimension": 35.009671179883945,
+        "children": [
+          {
+            "id": "549bfbb29f0df9ff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e935ab386558cc5c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9fb3d3d346ea0dc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "52c36b25714251fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcac5e0cbca6abbe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Self-Improvement/Como se tornar um perito em sua área.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1bc9cc905f77f417",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "144af47d1d08cc74",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Self-Improvement/Como se tornar um perito em sua área.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "80924408b0746550",
+  "lastOpenFiles": [
+    "Self-Improvement/Como se tornar um perito em sua área.md",
+    "Containerização.md",
+    "202110181719.md",
+    "202110081405.md",
+    "Kubernetes/Annotation.md",
+    "Developer Experience/Concepts.md",
+    "Concepts/Desired State.md",
+    "Daily/2021-06-14.md",
+    "Kubernetes/ApiObjects.md",
+    "Concepts/Control Loop.md"
+  ]
+}
