@@ -8,15 +8,17 @@ on:
 jobs:
   recover-pocket-highlights:
     runs-on: ubuntu-18.04
+    defaults:
+      run:
+        working-directory: notes-scrapper-scripts
     steps:
       - uses: actions/checkout@v2
         with:
           repository: fabioluciano/notes-scrapper
           path: notes-scrapper-scripts
       - uses: actions/setup-node@v2
-        working-directory: ./notes-scrapper-scripts
         with:
           node-version: "14"
           cache: "npm"
-      - run: npm install --prefix ./notes-scrapper-scripts
-      - run: node notes-scrapper-scripts/pocket/index.js
+      - run: npm install
+      - run: node pocket/index.js
