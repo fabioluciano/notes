@@ -8,9 +8,6 @@ on:
 jobs:
   recover-pocket-highlights:
     runs-on: ubuntu-18.04
-    defaults:
-      run:
-        working-directory: notes-scrapper-scripts
     steps:
       - uses: actions/checkout@v2
         with:
