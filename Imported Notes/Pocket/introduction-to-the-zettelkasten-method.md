@@ -19,3 +19,5 @@ tags:
 
 > create a web of thoughts instead of notes of arbitrary size and form, and emphasize connection, not a collection
 
+> Niklas Luhmann, the godfather of the Zettelkasten Method
+
